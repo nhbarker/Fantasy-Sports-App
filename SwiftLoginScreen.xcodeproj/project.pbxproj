@@ -10,10 +10,11 @@
 		EA62FD561989F6AC00469896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD551989F6AC00469896 /* AppDelegate.swift */; };
 		EA62FD581989F6AC00469896 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD571989F6AC00469896 /* Images.xcassets */; };
 		EA62FD641989F6AC00469896 /* SwiftLoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD631989F6AC00469896 /* SwiftLoginScreenTests.swift */; };
-		EA62FD6F1989F6E300469896 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD6E1989F6E300469896 /* Storyboard.storyboard */; };
 		EAA118A5198A1BF000F443F1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA118A4198A1BF000F443F1 /* HomeVC.swift */; };
 		EAA118A7198A23CB00F443F1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA118A6198A23CB00F443F1 /* LoginVC.swift */; };
 		EAA118A9198AAC7100F443F1 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA118A8198AAC7100F443F1 /* SignupVC.swift */; };
+		FF99AF9F1A894ED70073B166 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF99AF9E1A894ED70073B166 /* Storyboard.storyboard */; };
+		FF99AFA11A894EDE0073B166 /* fantasysportsapp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF99AFA01A894EDE0073B166 /* fantasysportsapp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +35,11 @@
 		EA62FD5D1989F6AC00469896 /* SwiftLoginScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLoginScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA62FD621989F6AC00469896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA62FD631989F6AC00469896 /* SwiftLoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginScreenTests.swift; sourceTree = "<group>"; };
-		EA62FD6E1989F6E300469896 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EAA118A4198A1BF000F443F1 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		EAA118A6198A23CB00F443F1 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EAA118A8198AAC7100F443F1 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		FF99AF9E1A894ED70073B166 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FF99AFA01A894EDE0073B166 /* fantasysportsapp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = fantasysportsapp.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +84,10 @@
 				EA62FD551989F6AC00469896 /* AppDelegate.swift */,
 				EA62FD571989F6AC00469896 /* Images.xcassets */,
 				EA62FD531989F6AC00469896 /* Supporting Files */,
-				EA62FD6E1989F6E300469896 /* Storyboard.storyboard */,
 				EAA118A4198A1BF000F443F1 /* HomeVC.swift */,
 				EAA118A6198A23CB00F443F1 /* LoginVC.swift */,
+				FF99AFA01A894EDE0073B166 /* fantasysportsapp.storyboard */,
+				FF99AF9E1A894ED70073B166 /* Storyboard.storyboard */,
 				EAA118A8198AAC7100F443F1 /* SignupVC.swift */,
 			);
 			path = SwiftLoginScreen;
@@ -194,8 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF99AFA11A894EDE0073B166 /* fantasysportsapp.storyboard in Resources */,
 				EA62FD581989F6AC00469896 /* Images.xcassets in Resources */,
-				EA62FD6F1989F6E300469896 /* Storyboard.storyboard in Resources */,
+				FF99AF9F1A894ED70073B166 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
